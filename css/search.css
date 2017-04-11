@@ -114,6 +114,7 @@ header  > div.sign_in div:first-child{
 	width: 30%;
 	margin-left: 20%;
 }
+{}
 
 header  > div.sign_in div:last-child  a{
 	border: 1px solid white;

@@ -1,0 +1,115 @@
+main {
+	width: 42%;
+	margin:0 auto;
+}
+main article {
+	width: 100%;
+	margin-top: 70px;
+	height: 400px;
+	background-color: #fff;
+}
+article div {
+	position: relative;
+	height: 100%;
+	color: white;
+}
+
+article > div > img {
+	z-index: 1;
+	padding-top: 30px;
+	width: 84%;
+	height:300px;
+	text-align: center;
+	margin: 0 8%;
+	position: absolute;
+	 -webkit-filter: blur(1px);
+     -moz-filter: blur(1px);
+       -o-filter: blur(1px);
+      -ms-filter: blur(1px);
+          filter: blur(1px);
+}
+article > div > div {
+	padding:0 12%; 
+	z-index: 20;
+	display: block;
+	overflow: hidden;
+	height: 330px;
+}
+
+article div h2 {
+	padding-top: 50px;
+	font-family: GOTHAM-MEDIUM;
+	height: 80px;
+}
+
+div > div > a > h3{
+	font-size: 0.9rem;
+	height: 100px;
+	overflow: hidden;
+}
+
+div > div> a > h3:first-of-type{
+	line-height: 1.5rem;
+	font-size: 1.1rem;
+}
+
+div > div > a > h3:last-of-type{
+	height: 30px;
+}
+
+.left_block {
+	text-align: right;
+}
+.left_block i,
+.left_block img{
+	float: left;
+	margin-left: 20px;
+}
+img.ava{
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	margin-top:27px;
+	border: 1px #fff solid;
+}
+
+.left_block-div {
+	width: 80%;
+	position: relative;
+	left: 3%;
+}
+
+div.block-text{
+	height: 70px;
+	padding: 0 8%;
+	color: #34495e;
+	font-size: 0.95rem;
+	line-height: 70px;
+}
+div.block-text img,
+div.block-text i,
+div.block-text div {
+	float: left;
+	color: #34495e;
+}
+div.block-text img.ava {
+	margin-top: 22px;
+	margin-right: 20px;
+}
+
+div.block-text > div{
+	width: 35%;
+}
+
+div.block-text i{
+	margin-top: 27px;
+	margin-left: 15%;
+	right:0;
+	
+}
+div.block-text span{
+	font-size: 0.8rem;
+	
+	display: inline-block;
+	font-family: "Gotham Book Regular";
+}

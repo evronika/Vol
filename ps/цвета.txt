@@ -1,0 +1,22 @@
+белый ffffff
+
+оранжевый f4b350
+
+фиолетовый af5fb9
+
+светло-голубой 66сссс
+
+серый 636363
+
+
+
+
+заголовки 30 pt, Segoe ui regular + Segoe ui italic
+
+кнопки 18 pt, Segoe ui light
+
+вопросы в поиске 14 pt, Segoe ui light
+
+подпись иконок 12 pt, Segoe ui regular
+
+толщина контура на кнопке регистрация или e mail 1 pt

@@ -1,111 +1,144 @@
 body {
-	margin: 0;
-	padding: 0;
-	background-color: #ececec;
-	color: #111;
-	font: 1rem 'Gotham Book Regular'; 
-	line-height: 1.1em;
+	font: 1rem 'SegoeUIRegular'; 
 	width: 100%;
 	max-width: 1960px;
-	height: 1500px;
+	margin:0 auto;
+	padding:0;
+	height: 900px;
+	color: #fff;
 }
+
 @font-face {
-	font-family: "Gotham Book Regular";
-    src: url("../fonts/Gotham Book Regular.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {
-	font-family: "GOTHAM-MEDIUM";
-    src: url("../fonts/GOTHAM-MEDIUM.ttf");
+    font-family: "SegoeUIRegular";
+    src: url("../fonts/SegoeUIRegular.eot");
+    src: url("../fonts/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUIRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
+/* font-family: "SegoeUIItalic"; */
+@font-face {
+    font-family: "SegoeUIItalic";
+    src: url("../fonts/SegoeUIItalic.eot");
+    src: url("../fonts/SegoeUIItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIItalic.woff") format("woff"),
+    url("../fonts/SegoeUIItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUILight"; */
+@font-face {
+    font-family: "SegoeUILight";
+    src: url("../fonts/SegoeUILight.eot");
+    src: url("../fonts/SegoeUILight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUILight.woff") format("woff"),
+    url("../fonts/SegoeUILight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 a {
 	text-decoration: none;
 	color: white;
 }
 
 header {
-	width: 100%;
 	height: 80px;
-	font-size:0;
-	background-color: #34495e;
-	color: #fff;
+	line-height: 80px;
 }
 
-header div {
-	width: 20%;
-	display: inline-block;
+
+
+header >div {
+	width: 40%;
+	float: left;
 	height: 100%;
-	top:0;
-}
-header >div:last-child {
-	width: 20%;
-}
-header div i {
-	height: 20px;
-	color: #fff;
-	width: 8%;
-	position: relative;
-	top:30px;
-	float:left;
-	font-size: 1rem;
-	margin-left: 15px;
-}
-i:first-of-type{
-	margin-left: 20px;
-}
-.fa {
-	color: white;
-	font-size: 1rem;
-	vertical-align: middle;
-}
-.fa.fa-1_2x {
-	font-size: 1.2rem;
 }
 
-.fa.fa-1_5x {
-	font-size: 1.5rem;
+header .back a:last-child {
+	padding-left: 5%;
 }
-
-header div img.logo {
-	width: 120px;
-	position: relative;
-	top:20px;
-	max-height: 45px;
-	line-height: 80px;
-	padding-left: 10%;
-	margin:0;
-	float:left;
+header > div.sign_in{
+	width: 28%;
+	padding-left: 2%;
+	float: left;
+	height: 100%;
 }
-
-header nav {
-	width: 60%;
-	margin: 0;
-	display: inline-block;
-	height: 100px;
-	font-size: 1rem;
-	vertical-align: top;
-}
-header nav  ul {
-	margin: 0;
-	padding: 0;
-	font-size:0;
-	line-height: 80px;
+header > div.sign_in div {
+	float: left;
 	width: 50%;
 	margin: 0 auto;
 }
 
-nav  ul  li  {
-	list-style:none;
-	width: 33%;
+header > div.back{
+	width: 30%;
+	padding-left: 0;
+	float: left;
+	height: 100%;
+}
+header > .back {
+	line-height: 80px;
+}
+header >.back div {
+	float: right;
+	width: 80%;
+}
+
+header >.back a {
+	width: 100%;
+	height: 100%;
+}
+
+header .back img {
 	display: inline-block;
-	font-size:1rem;
+	max-width: 150px;
+	width: 100px;
+	max-height: 40px;
+	position: relative;
+	padding-left: 10%;
+	top: 20px;
+}
+
+header  >div.sign_in div a{
+	height: 30px;
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 25px;
+	line-height: 30px;
+	color: #fff;
+	display: inline-block;
+	width: 70%;
+	font: 1.33rem SegoeUILight;
+	min-width: 80px;
 	text-align: center;
 }
-header nav div {
-	width: 33%;
-	float: left;
+
+header  > div.sign_in div:first-child{
+	width: 30%;
+	margin-left: 20%;
 }
+
+header  > div.sign_in div:last-child  a{
+	border: 1px solid white;
+	padding: 0 7%;
+	display: inline-block;
+	width: 70%;
+}
+
+header  > div.sign_in div:last-child:hover a{
+	background-color:white;
+	text-decoration:none;
+}
+	
+	header  > div.sign_in div:last-child:hover a{
+		color: #63d6d6 ;
+	}
+
+
+
+	.displayBlock{
+	display:block;
+}
+	

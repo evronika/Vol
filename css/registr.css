@@ -1,0 +1,126 @@
+body {
+	background-color: #63d6d6; 
+	line-height: 1.1em;
+	font: 1rem "SegoeUIRegular"; 
+	width: 100%;
+	max-width: 1960px;
+	height: 1500px;
+	margin:0;
+	padding:0;
+	height: 1000px;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("../fonts/SegoeUIRegular.eot");
+    src: url("../fonts/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "SegoeUIItalic"; */
+@font-face {
+    font-family: "SegoeUIItalic";
+    src: url("../fonts/SegoeUIItalic.eot");
+    src: url("../fonts/SegoeUIItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIItalic.woff") format("woff"),
+    url("../fonts/SegoeUIItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUILight"; */
+@font-face {
+    font-family: "SegoeUILight";
+    src: url("../fonts/SegoeUILight.eot");
+    src: url("../fonts/SegoeUILight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUILight.woff") format("woff"),
+    url("../fonts/SegoeUILight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+main {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+main > .h1 {
+	width: 45%;
+	margin:50px auto 20px auto;
+	font-family: SegoeUIRegular;
+    font-size: 2rem;
+    text-align: left;
+}
+main aside {
+	width: 45%;
+	margin: 0 auto;
+} 
+
+div.logo_img{
+	padding: 120px 0 50px 0;
+}
+
+img[alt="logo"]{
+	width: 120px;
+	height: 50px;
+}
+
+hr {
+	color: #fff;
+}
+label, input, select, option {
+	width: 99.4%;
+	display: inline-block;
+	text-align: left;
+	background: none;
+	line-height:35px;
+	height: 30px;
+	color: #fff;
+	vertical-align:middle;
+}
+option{
+	background-color:white ; 
+	line-height: 1.5rem;
+	font: 1rem "SegoeUILight" #63d6d6; 
+	color:#636363;
+	width: 99.4%;
+	height:30px;
+}
+input,select {
+	font-size: 0.75rem;
+	border: 1px solid white; 
+	;
+}
+input[type="checkbox"]{
+	display:inline-block;
+	height: 20px;
+	width: 8%;
+	margin:0;
+	padding:0;
+}
+label[for="i_6"]{
+	display:inline-block;
+	width: 89%;
+	margin: 10px auto;
+}
+
+hr {
+	margin-bottom: 30px;
+}
+
+button{
+	border: none;
+	width: 100%;
+	height: 40px;
+	font: 1.0666rem SegoeUILight;
+	color: #fff;
+	background-color: #f4b350;
+	text-align: center;
+}

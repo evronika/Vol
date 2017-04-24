@@ -10,25 +10,27 @@
     </head>
 	<body>
 		<header>
-			<div>
-				<img src="img/logo.png" alt="logo" class="logo"/>
-				<a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-				<a href=""><i class="fa fa-bell-o" aria-hidden="true"></i></a>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="">Projects</a></li>
-					<li><a href="">Activity</a></li>
-					<li><a href="">Add project</a></li>
-				</ul>
-			</nav>
-			<div class="left_block">
-				<div class="left_block-div">
-					<a href=""><i class="fa fa-search fa-1_2x" aria-hidden="true"></i></a>
-					<img src="img/ava.jpeg" alt="Ава" class="ava"/>
-					<a href=""><i class="fa fa-caret-down fa-1_5x" aria-hidden="true"></i></a>
+				<div class="back">
+				  <a href="index.html"><img src="img/logo.png"/></a>
 				</div>
-			</div>
+				<div class="events">
+					<ul>
+						<li><a href="">Мероприятия</a></li>
+						<li><a href="">Популярное</a></li>
+						<li><a href="">Добавить мероприятие</a></li>
+					</ul>
+				</div>
+				<div class="menu">
+					<div class="search"><input type="search" name="search"><i class="fa fa-search" aria-hidden="true"></i></div>
+					<div onclick="openMenuUser()"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i><i class="fa fa-sort-desc" aria-hidden="true"></i>
+						<ul id="menu" class="displayNone">
+							<li><a href="">Профиль</a></li>
+							<li><a href="">Настройки</a></li>
+							<li><a href="">Сообщения</a></li>
+							<li><a href="">Выход</a></li>
+						</ul>
+					</div>
+				</div>
 		</header>
 		<main>
 			<article>
@@ -68,6 +70,16 @@
 				</div>
 			</article>
 		</main>
+		<script>
+			function openMenuUser(){
+				var target=event.target;
+				console.dir(target);
+				console.log("HI");
+				if (target.tagName=="I"){
+					var ul=document.getElementById("menu");
+					ul.classList.toggle("displayNone");
+				}
+			}
 		</script>
 	</body>
 </html>

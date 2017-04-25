@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Главная | Volunteer</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/allforEntering.css"  media="all">
+		<link rel="stylesheet" href="css/worksheet.css"  media="all">
+    </head>
+	<body>
+		<header>
+				<div class="back">
+				  <a href="index.html"><img src="img/logo.png"/></a>
+				</div>
+				<div class="events">
+					<ul>
+						<li><a href="">Мероприятия</a></li>
+						<li><a href="">Популярное</a></li>
+						<li><a href="addEvent.html">Добавить мероприятие</a></li>
+				</div>
+				<div class="menu">
+					<div class="search"><input type="search" name="search"><i class="fa fa-search" aria-hidden="true"></i></div>
+					<div onclick="openMenuUser()"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i><i class="fa fa-sort-desc" aria-hidden="true"></i>
+						<ul id="menu" class="displayNone">
+							<li><a href="">Профиль</a></li>
+							<li><a href="addEvent.html">Анкеты</a></li>
+							<li><a href="">Настройки</a></li>
+							<li><a href="">Сообщения</a></li>
+							<li><a href="">Выход</a></li>
+						</ul>
+					</div>
+				</div>
+		</header>
+		<main>
+			<div class="h1">
+					<h2>АКТЕР, <i>АКТРИСА</i></h2>
+			</div>
+			<aside class="media">
+				<div>Загрузи свое порфолио и шоурил</div>
+				<a href=""><i class="fa fa-camera fa-3x" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-video-camera fa-3x" aria-hidden="true"></i></a>
+			</aside>
+			<aside class="form">
+				<form><label for="sex">Пол</label><br><input type="text" id="sex"></form>
+				<form><label for="height">Рост</label><br><input type="text" id="height"></form>
+				<form><label for="weight">Вес</label><br><input type="text" id="weight"></form>
+				<form><label for="age">Возраст</label><br><input type="text" id="age"></form>
+				<form class="hairEyes">
+					<div><label for="hair">Цвет, длина волос</label><br><input type="text" id="hair"><br></div>
+					<div><label for="eyes">Цвет глаз</label><br><input type="text" id="eyes"><br></div>
+				</form>
+				<form class="TattooSizes">
+					<div><label for="tattoo">Тату</label><br><input type="text" id="tattoo"><br></div>
+					<div><label for="sizes">Размер одежды, обуви</label><br><input type="text" id="sizes"><br></div>
+				</form>
+				<form class="appLang">
+					<div><label for="appearance">Тип внешности</label><br><input type="text" id="appearance"><br></div>
+					<div><label for="languages">Языки</label><br><input type="text" id="languages"><br></div>
+				</form>
+				<form class="educ">
+					<label for="education">Образование</label><br><input type="text" id="education"><br>
+					<div><input type="button" value="Сохранить"></div>
+				</form>
+			</aside>
+		</main>
+		<script>
+			function openMenuUser(){
+				var target=event.target;
+				console.dir(target);
+				console.log("HI");
+				if (target.tagName=="I"){
+					var ul=document.getElementById("menu");
+					ul.classList.toggle("displayNone");
+				}
+			}
+		</script>
+	</body>
+</html>

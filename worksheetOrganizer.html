@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/allforEntering.css"  media="all">
-		<link rel="stylesheet" href="css/index.css"  media="all">
+		<link rel="stylesheet" href="css/worksheet.css"  media="all">
     </head>
 	<body>
 		<header>
@@ -17,7 +17,7 @@
 					<ul>
 						<li><a href="">Мероприятия</a></li>
 						<li><a href="">Популярное</a></li>
-						<li><a href="worksheetOrganizer.html">Добавить мероприятие</a></li>
+						<li><a href="addEvent.html">Добавить мероприятие</a></li>
 					</ul>
 				</div>
 				<div class="menu">
@@ -34,42 +34,21 @@
 				</div>
 		</header>
 		<main>
-			<article>
-				<div class="img-text">
-					<img src="img/2.jpg" alt="Спорт"/>
-					<div><a href="">
-						<h2>Paralympic Games</h2>
-						<h3>The Paralympic Games is a major international multi-sport event involving athletes with a range of disabilities, including impaired muscle power.</h3>
-						<h3>Read more...</h3>
-						</a>
-					</div>
-				<div class="block-text">
-					<img src="img/ava.jpeg" alt="Ава" class="ava"/> 
-					<div>
-						Audi Nissen
-					</div>
-					<i class="fa fa-eye" aria-hidden="true"><span>2 000</span></i>
-					<i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span>3 000</span>
-				</div>
-			</article>
-			<article>
-				<div class="img-text">
-					<img src="img/2.jpg" alt="Спорт"/>
-					<div><a href="">
-						<h2>Mobile kids App</h2>
-						<h3>Raz-Kids delivers comprehensive reading resources at 29 levels of reading difficulty.</h3>
-						<h3>Read more...</h3>
-					</a>
-					</div>
-				<div class="block-text">
-					<img src="img/ava.jpeg" alt="Ава" class="ava"/>
-					<div>
-						Audi Nissen
-					</div>
-					<i class="fa fa-eye" aria-hidden="true"><span>2 000</span></i>
-					<i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span>3 000</span>
-				</div>
-			</article>
+			<div class="h1">
+					<h2>ОРГАНИЗАТОР</h2>
+			</div>
+			<aside class="media">
+				<div>Загрузи свое порфолио</div>
+				<a href=""><i class="fa fa-camera fa-3x" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-video-camera fa-3x" aria-hidden="true"></i></a>
+			</aside>
+			<aside class="form">
+				<form class="aboutOrganizer">
+					<div><label for="name">Имя организации</label><br><input type="text" id="name"><br></div>
+					<div><label for="rewards">Награды</label><br><input type="text" id="rewards"><br></div>
+					<div><input type="button" value="Сохранить"></div>
+				</form>
+			</aside>
 		</main>
 		<script>
 			function openMenuUser(){

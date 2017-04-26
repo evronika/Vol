@@ -8,6 +8,14 @@ body {
 	height: 900px;
 	color: #fff;
 }
+body.backActor {
+	background: #f4b350;
+}
+
+header .search {
+    border: none;
+}
+
 main{
 	height: 80%;
 }
@@ -89,7 +97,18 @@ div > input[type="button"]{
 	 background-color:  #f4b350;
 	 height: 40px;
 	 font: 1rem 'SegoeUILight'; 
+	 color: white;
 }
+
+.backActor div > input[type="button"]{
+	border:none;
+	border-top: 3px solid  #af5fb9;
+	border-right: 3px solid  #af5fb9;
+	 background-color:  #af5fb9;
+	 height: 40px;
+	 font: 1rem 'SegoeUILight'; 
+}
+
 main > aside.media i {
 	padding-top: 45px;
 	padding-left: 55px;

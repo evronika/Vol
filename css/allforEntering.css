@@ -72,7 +72,7 @@ header > div.sign_in div {
 }
 
 header > div.back{
-	width: 30%;
+	width: 33%;
 	padding-left: 0;
 	float: left;
 	height: 100%;
@@ -80,14 +80,12 @@ header > div.back{
 header > .back {
 	line-height: 80px;
 }
-header >.back div {
-	float: right;
-	width: 80%;
-}
 
 header >.back a {
-	width: 100%;
+	width: 40%;
 	height: 100%;
+	display: block;
+	float:left;
 }
 
 header .back img {
@@ -99,6 +97,34 @@ header .back img {
 	padding-left: 10%;
 	top: 20px;
 }
+header >.back div {
+	display: block;
+	float:left;
+	width: 58%;
+	margin-left: 
+	line-height: 80px;
+}
+
+header input[name="search"]{
+	background: none;
+	border: none;
+	width: 90%;
+	left:0;
+	display: block;
+	height: 36px;
+	outline: none;
+	background-image: url(../img/search.png);
+	background-color: white;
+	opacity:0.25;
+	background-repeat: no-repeat; /*Убираем повтор изображения*/   
+    background-position: 10px; /*Позиционируем*/   
+    -moz-border-radius: 5px; /*закругляем углы для Mozilla*/  
+    -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/   
+    border-radius: 4px; /*закругляем углы для остальных браузеров*/ 
+    position: relative; 
+    top: 22.5px;
+}
+
 
 header  >div.sign_in div a{
 	height: 30px;
@@ -132,9 +158,9 @@ header  > div.sign_in div:last-child:hover a{
 	text-decoration:none;
 }
 	
-	header  > div.sign_in div:last-child:hover a{
-		color: #63d6d6 ;
-	}
+header  > div.sign_in div:last-child:hover a{
+	color: #63d6d6 ;
+}
 
 
 
@@ -169,18 +195,11 @@ header .menu > div{
 }
 
 header .menu > div:first-child {
-	width: 64%;
+	width: 44%;
+	margin-left: 20%;
 }
 
-header input[name="search"]{
-	height: 30px;
-	position: absolute;
-	background: none;
-	border: none;
-	display:inline-block;
-	width: 100%;
-	left:0;
-}
+
 
 header .search {
 	text-align: right;
@@ -229,3 +248,5 @@ header .events ul li{
 	width:26.2%;
 	text-align: center;
 }
+
+@media all and (max-width:)
